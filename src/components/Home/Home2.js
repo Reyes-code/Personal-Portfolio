@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/fondo.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,30 +16,19 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <b className="purple">Introducing Myself </b>
             </h1>
             <p className="home-about-body">
-              Actually I'm in love with programming and doing new interests projects
-              <br />
-              <br />I am fluent in Technologies like
-              <i>
-                <b className="purple"> React.js, Python, Javascript, Node.js and SQL. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Websites and data projects.
-                </b>
-              </i>
-              <br />
-              <br />
+              Full-Stack Developer with 2+ years of experience building scalable
+              web applications and robust data systems. <b className="purple">I build front-ends with
+              React, JavaScript, and MUI, and develop back-end services and APIs
+              using Django and Python.</b> My background in data engineering ensures
+              the applications I create are powered by efficient data logic,
+              automation, and solid data infrastructure.
+
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -54,22 +43,12 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Reyes-coder"
+                  href="https://github.com/Reyes-code"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/santiagorp17_"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
@@ -80,16 +59,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/santiiiago_17/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaAnglesDown } from "react-icons/fa6";
 
 function AboutCard() {
   return (
@@ -8,22 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
-            Hi Everyone, I am <span className="purple">Santiago Reyes </span>
-            from <span className="purple"> Bogotá, Colombia.</span>
-            <br />I'm an Analysis and Development of Information Systems student, I'm looking for a position as junior developer.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Full-Stack Developer with 2+ years of experience building scalable
+            web applications and robust data systems.{" "}
+            <b className="purple">
+              I build front-ends with React, JavaScript, and MUI, and develop
+              back-end services and APIs using Django and Python.
+            </b>{" "}
+            My background in data engineering ensures the applications I create
+            are powered by efficient data logic, automation, and solid data
+            infrastructure.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Listen Music
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Cook
+              <FaAnglesDown /> For more Information, Scroll Down
             </li>
           </ul>
         </blockquote>

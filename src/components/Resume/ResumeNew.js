@@ -2,14 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "http://localhost:3000/static/media/CV.bffa17d2231545ffb224.pdf";
+
+const resumeLink = "/CV.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -25,7 +24,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={resumeLink}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -43,7 +42,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={resumeLink}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
