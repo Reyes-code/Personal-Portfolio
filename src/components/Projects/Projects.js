@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import recipes from "../../Assets/Projects/recipespng.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import tinder from "../../Assets/Projects/tinderpng.png";
+import pancoquito from "../../Assets/Projects/pancoquitopng.png";
+import microsleep from "../../Assets/Projects/microsleep.png";
+import movies from "../../Assets/Projects/moviespng.png";
 
 function Projects() {
   return (
@@ -23,10 +23,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={pancoquito}
               isBlog={false}
               title="Pancoquito CRM" 
-              description="A full-stack Django application for order and operations management. Features a Python backend with SQLite/PostgreSQL database, responsive frontend with HTML5/CSS3/JavaScript, and containerized deployment using Docker with GitHub Actions CI/CD."
+              description="A full-stack Django application for production orders and operations management. Features a Python backend with PostgreSQL database, responsive frontend with HTML5, CSS3, JavaScript, Bootstrap and containerized deployment using Docker with GitHub Actions CI/CD."
               ghLink="https://github.com/Reyes-code/sistema_pancoquito"
               demoLink="https://pancoquito-sistema.onrender.com/"
             />
@@ -34,10 +34,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              imgPath={movies}
+              isBlog={true}
+              title="Movies"
+              description="Movies, is a full-stack web application designed to showcase the latest cinematic releases. The project features a responsive React frontend coupled with a custom Node.js (Express) backend server, demonstrating a clear separation of concerns and modern API consumption practices."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -45,10 +45,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              imgPath={tinder}
+              isBlog={true}
+              title="Tinder Clone"
+              description="It is a responsive web application that mirrors the Tinder experience, built with a focus on a dynamic React frontend. It features a swipeable card interface, real-time chat, and a responsive design that works seamlessly across devices"
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -56,10 +56,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              imgPath={recipes}
+              isBlog={true}
+              title="Recipe App"
+              description="Is a responsive recipe discovery app built with React. Swipe through beautiful recipe cards to save your favorites, explore detailed cooking instructions, and build your personal collection. The frontend is designed to connect with a custom Node.js and MongoDB backend for storing recipes and user data."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -67,12 +67,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={microsleep}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Sleep Detection"
+              description="This sleep detection app uses computer vision to monitor eye activity in real-time through a webcam. Built with Python, OpenCV, and MediaPipe, it tracks facial landmarks to detect blinks and identify micro-sleeps when eyes remain closed too long."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
