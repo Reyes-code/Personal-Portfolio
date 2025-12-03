@@ -38,8 +38,7 @@ function Projects() {
               isBlog={true}
               title="Movies"
               description="Movies, is a full-stack web application designed to showcase the latest cinematic releases. The project features a responsive React frontend coupled with a custom Node.js (Express) backend server, demonstrating a clear separation of concerns and modern API consumption practices."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/Reyes-code/Movies"
             />
           </Col>
 
@@ -49,8 +48,7 @@ function Projects() {
               isBlog={true}
               title="Tinder Clone"
               description="It is a responsive web application that mirrors the Tinder experience, built with a focus on a dynamic React frontend. It features a swipeable card interface, real-time chat, and a responsive design that works seamlessly across devices"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/Reyes-code/TinderClone"           
             />
           </Col>
 
@@ -60,8 +58,7 @@ function Projects() {
               isBlog={true}
               title="Recipe App"
               description="Is a responsive recipe discovery app built with React. Swipe through beautiful recipe cards to save your favorites, explore detailed cooking instructions, and build your personal collection. The frontend is designed to connect with a custom Node.js and MongoDB backend for storing recipes and user data."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/Reyes-code/mern_recipes_app" 
             />
           </Col>
 
@@ -71,19 +68,7 @@ function Projects() {
               isBlog={false}
               title="Sleep Detection"
               description="This sleep detection app uses computer vision to monitor eye activity in real-time through a webcam. Built with Python, OpenCV, and MediaPipe, it tracks facial landmarks to detect blinks and identify micro-sleeps when eyes remain closed too long."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              ghLink="https://github.com/Reyes-code/sleep_detection.githttps://github.com/soumyajit4419/AI_For_Social_Good"
             />
           </Col>
         </Row>
