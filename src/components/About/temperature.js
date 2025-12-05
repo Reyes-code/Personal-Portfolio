@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
 
 const TemperatureMonitor = () => {
     const [temperature, setTemperature] = useState(null);
@@ -91,4 +91,4 @@ const TemperatureMonitor = () => {
     );
 };
 
-export default TemperatureMonitor;
+export default TemperatureMonitor; */
