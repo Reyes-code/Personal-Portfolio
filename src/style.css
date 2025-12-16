@@ -738,7 +738,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #ffde59df!important;
+  background-color: #ffd21cdf!important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -746,8 +746,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #ffdb4bf1 !important;
-  border-color: #fff264 !important;
+  background-color: #fbd335f1 !important;
+  border-color: #f5a105 !important;
 }
 .fork-btn-inner::after {
   display: none !important;

@@ -22,8 +22,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pancoquito}
+              imgPath={movies}
               isBlog={false}
+              title="Movies"
+              description="Movies, is a full-stack web application designed to showcase the latest cinematic releases. The project features a responsive React frontend coupled with a custom Node.js (Express) backend server, demonstrating a clear separation of concerns and modern API consumption practices."
+              ghLink="https://github.com/Reyes-code/Movies"
+              demoLink="https://moviesofsantiagoreyes.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pancoquito}
+              isBlog={true}
               title="Pancoquito CRM" 
               description="A full-stack Django application for production orders and operations management. Features a Python backend with PostgreSQL database, responsive frontend with HTML5, CSS3, JavaScript, Bootstrap and containerized deployment using Docker with GitHub Actions CI/CD."
               ghLink="https://github.com/Reyes-code/sistema_pancoquito"
@@ -31,23 +42,15 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={movies}
-              isBlog={true}
-              title="Movies"
-              description="Movies, is a full-stack web application designed to showcase the latest cinematic releases. The project features a responsive React frontend coupled with a custom Node.js (Express) backend server, demonstrating a clear separation of concerns and modern API consumption practices."
-              ghLink="https://github.com/Reyes-code/Movies"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tinder}
-              isBlog={true}
+              isBlog={false}
               title="Tinder Clone"
               description="It is a responsive web application that mirrors the Tinder experience, built with a focus on a dynamic React frontend. It features a swipeable card interface, real-time chat, and a responsive design that works seamlessly across devices"
-              ghLink="https://github.com/Reyes-code/TinderClone"           
+              ghLink="https://github.com/Reyes-code/TinderClone"
+              demoLink="https://moviesofsantiagoreyes.netlify.app/"           
             />
           </Col>
 

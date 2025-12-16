@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { FaAnglesDown } from "react-icons/fa6";
 
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -18,6 +19,7 @@ function AboutCard() {
             are powered by efficient data logic, automation, and solid data
             infrastructure.
           </p>
+
           <ul>
             <li className="about-activity">
               <FaAnglesDown /> For more Information, Scroll Down
