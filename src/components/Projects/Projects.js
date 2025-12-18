@@ -33,6 +33,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={tinder}
+              isBlog={false}
+              title="Tinder Clone"
+              description="It is a responsive web application that mirrors the Tinder experience, built with a focus on a dynamic React frontend. It features a swipeable card interface, real-time chat, and a responsive design that works seamlessly across devices"
+              ghLink="https://github.com/Reyes-code/TinderClone"
+              demoLink="https://tinderclonesantiagoreyes.netlify.app/"           
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pancoquito}
               isBlog={true}
               title="Pancoquito CRM" 
@@ -43,16 +53,6 @@ function Projects() {
           </Col>
 
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tinder}
-              isBlog={false}
-              title="Tinder Clone"
-              description="It is a responsive web application that mirrors the Tinder experience, built with a focus on a dynamic React frontend. It features a swipeable card interface, real-time chat, and a responsive design that works seamlessly across devices"
-              ghLink="https://github.com/Reyes-code/TinderClone"
-              demoLink="https://moviesofsantiagoreyes.netlify.app/"           
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
