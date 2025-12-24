@@ -466,7 +466,6 @@ button:focus {
   box-shadow: 0 4px 5px 3px rgba(134, 144, 72, 0.561)  !important;
   color: white !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -509,7 +508,6 @@ button:focus {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
   border-radius: 10px !important;
 }
 

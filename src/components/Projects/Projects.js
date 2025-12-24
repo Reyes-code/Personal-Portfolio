@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import recipes from "../../Assets/Projects/recipespng.png";
 import tinder from "../../Assets/Projects/tinderpng.png";
 import pancoquito from "../../Assets/Projects/pancoquitopng.png";
+import soccer from "../../Assets/Projects/soccer.png"
 import microsleep from "../../Assets/Projects/microsleep.png";
 import movies from "../../Assets/Projects/moviespng.png";
 
@@ -30,7 +31,16 @@ function Projects() {
               demoLink="https://moviesofsantiagoreyes.netlify.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={soccer}
+              isBlog={false}
+              title="Soccer Stats"
+              description="It is a responsive web application which you can acces to soccer teams stats from Colombian National League, it was build using React, API, Bootstrap and deployed via Netlify. You can navigate in every device, to verify responsiveness"
+              ghLink="https://github.com/Reyes-code/soccerTeams"
+              demoLink="https://colombiansoccer-santiagoreyes.netlify.app/"           
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tinder}
